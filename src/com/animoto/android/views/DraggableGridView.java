@@ -19,7 +19,6 @@ import android.util.DisplayMetrics;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
-import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 import android.view.MotionEvent;
 import android.view.View;
@@ -534,6 +533,4 @@ public class DraggableGridView extends ViewGroup implements View.OnTouchListener
     public void setNumColumns ( int num ) {
         colCount = num ;
     }
-    
-    
 }

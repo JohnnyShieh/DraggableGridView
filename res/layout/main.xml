@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="gridview" />
 
+
     <com.animoto.android.views.DraggableGridView
         android:id="@+id/vgv"
         android:layout_width="fill_parent"
